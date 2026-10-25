@@ -1,0 +1,3 @@
+BSc: {
+    'Faculty of Science': ['Physics', 'Chemistry', 'Botany', 'Zoology', 'Mathematics', 'Statistics']
+  },

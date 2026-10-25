@@ -1,0 +1,406 @@
+{
+  "1st": [
+    {
+      "courseTitle": "English Communication",
+      "courseCode": "AEC-1",
+      "credits": "2",
+      "marks": "100",
+      "evaluationScheme": "End-Term Appraisal: 70 Marks | Internal Assessment: 30 Marks",
+      "courseObjectives": [
+        "To build foundational competence in English language communication for academic and professional spheres.",
+        "To enhance listening, speaking, reading, and writing (LSRW) skills.",
+        "To train students in basic grammar, vocabulary, comprehension, and formal correspondence."
+      ],
+      "courseOutcomes": [
+        "CO1: Apply foundational grammar, correct sentence syntax, and active vocabulary in speech and writing.",
+        "CO2: Comprehend complex academic and non-academic prose texts accurately.",
+        "CO3: Draft formal letters, official emails, notices, and structured summaries.",
+        "CO4: Deliver clear, effective oral presentations with correct pronunciation and intonation."
+      ],
+      "theory": {
+        "credits": "2",
+        "units": [
+          {
+            "unitNumber": 1,
+            "title": "Unit 1: Theory of Communication and Language Skills",
+            "topics": [
+              "Nature, process, channels, and barriers of effective communication",
+              "Verbal vs Non-verbal communication: Body language, paralanguage, eye contact, and listening skills",
+              "Essentials of English grammar: Subject-verb agreement, tenses, active/passive voice, direct/indirect speech, prepositions and common errors"
+            ]
+          },
+          {
+            "unitNumber": 2,
+            "title": "Unit 2: Reading Comprehension and Vocabulary Enrichment",
+            "topics": [
+              "Reading strategies: Skimming, scanning, intensive and extensive reading",
+              "Comprehension passages from prose, science, and humanities with analytical questions",
+              "Vocabulary development: Synonyms, antonyms, prefixes, suffixes, collocations, and idioms"
+            ]
+          },
+          {
+            "unitNumber": 3,
+            "title": "Unit 3: Functional and Applied Writing",
+            "topics": [
+              "Paragraph writing with topic sentence and supporting details",
+              "Note-making and summarizing techniques (Linear and Diagrammatic)",
+              "Official correspondence: Formal letters (enquiry, complaint, leave), curriculum vitae (CV) and cover letters",
+              "Digital writing: Professional email writing etiquettes and drafting notices/memos"
+            ]
+          }
+        ]
+      },
+      "practical": {
+        "title": "Language Lab & Oral Communication Practice",
+        "topics": [
+          "Pronunciation practice: Phonetic symbols, word stress, rhythm, and intonation drills in language lab",
+          "Classroom group discussions, extempore speaking, and mock telephonic conversations",
+          "Audio listening comprehension tests and real-time lecture note-taking exercises"
+        ],
+        "evaluation": [
+          {
+            "component": "Continuous Assessment & Lab Assignments",
+            "marks": 30
+          },
+          {
+            "component": "End-Term Written Exam",
+            "marks": 50
+          },
+          {
+            "component": "Oral Communication & Viva",
+            "marks": 20
+          }
+        ]
+      },
+      "suggestedBooks": [
+        "Quirk, R. & Greenbaum, S. - A University Grammar of English. Longman.",
+        "Raman, Meenakshi & Sharma, Sangeeta - Technical Communication: Principles and Practice. Oxford University Press.",
+        "Hewings, Martin - Advanced English Grammar. Cambridge University Press.",
+        "Kaul, Asha - Effective Business Communication. PHI Learning."
+      ]
+    },
+    {
+      "courseTitle": "हिन्दी संप्रेषण (Hindi Communication)",
+      "courseCode": "AEC-1",
+      "credits": "2",
+      "marks": "100",
+      "evaluationScheme": "End-Term Appraisal: 70 Marks | Internal Assessment: 30 Marks",
+      "courseObjectives": [
+        "हिन्दी भाषा के व्यावहारिक एवं संप्रेषणात्मक रूप से विद्यार्थियों को अवगत कराना।",
+        "मौखिक एवं लिखित अभिव्यक्ति के विविध आयामों में दक्षता प्रदान करना।",
+        "कार्यालयी हिन्दी, अनुवाद एवं पारिभाषिक शब्दावली का ज्ञान देना।"
+      ],
+      "courseOutcomes": [
+        "CO1: संप्रेषण के विविध तत्वों, प्रकारों और बाधाओं को समझ सकेंगे।",
+        "CO2: हिन्दी वर्तनी, व्याकरण और मानक भाषा के नियमों का शुद्ध प्रयोग कर सकेंगे।",
+        "CO3: कार्यालयी पत्र-व्यवहार, टिप्पण, प्रारूपण और संक्षेपण की कला में प्रवीण होंगे।",
+        "CO4: व्यावहारिक अनुवाद और जनसंचार माध्यमों के लिए प्रभावी लेखन कर सकेंगे।"
+      ],
+      "theory": {
+        "credits": "2",
+        "units": [
+          {
+            "unitNumber": 1,
+            "title": "यूनिट 1: संप्रेषण की अवधारणा एवं मौखिक अभिव्यक्ति",
+            "topics": [
+              "संप्रेषण: परिभाषा, स्वरूप, प्रक्रिया, प्रकार (मौखिक एवं अमौखिक) एवं 7C नियम",
+              "मौखिक संप्रेषण के रूप: वार्तालाप, भाषण कला, वाद-विवाद, समूह चर्चा (GD), साक्षात्कार",
+              "उच्चारण और स्वर-तंत्र: मानक हिन्दी का उच्चारण, बलाघात, अनुतान एवं विराम"
+            ]
+          },
+          {
+            "unitNumber": 2,
+            "title": "यूनिट 2: भाषा-ज्ञान, वर्तनी एवं संपादन",
+            "topics": [
+              "मानक हिन्दी वर्तनी के नियम (केंद्रीय हिन्दी निदेशालय के अनुसार)",
+              "शब्द-संपदा: पर्यायवाची, विलोम, तत्सम-तद्भव, मुहावरे और लोकोक्तियाँ",
+              "वाक्य रचना और सामान्य अशुद्धियाँ (कारक, लिंग, वचन, अन्विति संबंधी)",
+              "संक्षेपण (Precis writing) एवं पल्लवन (Expansion of idea)"
+            ]
+          },
+          {
+            "unitNumber": 3,
+            "title": "यूनिट 3: कार्यालयी एवं व्यावहारिक लेखन",
+            "topics": [
+              "कार्यालयी पत्र-व्यवहार: सरकारी पत्र, अर्ध-सरकारी पत्र, ज्ञापन, परिपत्र, अधिसूचना",
+              "टिप्पणी लेखन (Noting) एवं प्रारूपण (Drafting)",
+              "प्रशासनिक पारिभाषिक शब्दावली",
+              "व्यावहारिक अनुवाद (अंग्रेजी से हिन्दी और हिन्दी से अंग्रेजी)"
+            ]
+          }
+        ]
+      },
+      "practical": {
+        "title": "मौखिक एवं लिखित अभ्यास सत्र",
+        "topics": [
+          "समसामयिक विषय पर समूह चर्चा एवं 3 मिनट का आशु-भाषण (Extempore)",
+          "सरकारी एवं अर्ध-सरकारी पत्रों का मानक प्रारूप में लेखन अभ्यास",
+          "गद्यांशों का संक्षेपण एवं अंग्रेजी प्रशासनिक अनुच्छेदों का हिन्दी अनुवाद"
+        ],
+        "evaluation": [
+          {
+            "component": "सतत मूल्यांकन एवं पत्र-लेखन पोर्टफोलियो",
+            "marks": 30
+          },
+          {
+            "component": "सत्रांत लिखित परीक्षा",
+            "marks": 50
+          },
+          {
+            "component": "मौखिकी (वाइवा)",
+            "marks": 20
+          }
+        ]
+      },
+      "suggestedBooks": [
+        "तिवारी, भोलानाथ - हिन्दी भाषा और संप्रेषण, वाणी प्रकाशन",
+        "पांडेय, ओमप्रकाश - प्रयोजनमूलक हिन्दी, विश्वविद्यालय प्रकाशन, वाराणसी",
+        "गौड़, विनोद - व्यावहारिक हिन्दी और रचना, साहित्य भवन",
+        "झा, हरिश्चंद्र - राजभाषा हिन्दी और अनुवाद, राजकमल प्रकाशन"
+      ]
+    }
+  ],
+  "2nd": [
+    {
+      "courseTitle": "Environmental Science",
+      "courseCode": "AEC-2",
+      "credits": "2",
+      "marks": "100",
+      "evaluationScheme": "End-Term Appraisal: 70 Marks | Internal Assessment: 30 Marks",
+      "courseObjectives": [
+        "To develop comprehensive awareness about ecological balance and environmental protection.",
+        "To understand natural resource management, biodiversity conservation, and pollution control.",
+        "To sensitize students towards climate change, environmental legislation, and sustainable living."
+      ],
+      "courseOutcomes": [
+        "CO1: Explain the structure and function of ecosystems and energy flow dynamics.",
+        "CO2: Evaluate causes, consequences, and mitigation of air, water, soil, noise, and plastic pollution.",
+        "CO3: Appreciate biodiversity value, threats, and conservation strategies (In-situ & Ex-situ).",
+        "CO4: Apply environmental laws, EIA, disaster mitigation, and sustainable practices in daily life."
+      ],
+      "theory": {
+        "credits": "2",
+        "units": [
+          {
+            "unitNumber": 1,
+            "title": "Unit 1: Ecosystems and Natural Resources",
+            "topics": [
+              "Multidisciplinary nature of environmental studies, Scope and importance, Concept of sustainable development",
+              "Ecosystems: Structure, functions, producers, consumers, decomposers, Food chains, Food webs, Ecological pyramids, Energy flow",
+              "Forest, Grassland, Desert, and Aquatic ecosystems (Ponds, Rivers, Wetlands)",
+              "Renewable and Non-renewable resources: Forest, Water, Mineral, Food, and Energy resources (Solar, Wind, Bio-energy)"
+            ]
+          },
+          {
+            "unitNumber": 2,
+            "title": "Unit 2: Biodiversity and Conservation",
+            "topics": [
+              "Levels of biodiversity: Genetic, Species, and Ecosystem diversity; Biogeographical zones of India",
+              "Biodiversity hot spots (Western Ghats, Indo-Burma, Himalayas, Sundaland), India as a mega-diversity nation",
+              "Threats to biodiversity: Habitat loss, poaching of wildlife, human-wildlife conflicts, invasive alien species",
+              "Conservation strategies: In-situ (National Parks, Wildlife Sanctuaries, Biosphere Reserves) & Ex-situ (Botanical Gardens, Zoos, Cryopreservation, Gene Banks)"
+            ]
+          },
+          {
+            "unitNumber": 3,
+            "title": "Unit 3: Environmental Pollution, Policies and Climate Change",
+            "topics": [
+              "Causes, effects, and control measures of Air, Water, Soil, Noise, Thermal, and Nuclear pollution; Solid waste management",
+              "Global environmental issues: Climate change, Global warming, Ozone layer depletion, Acid rain, Carbon footprint",
+              "Environmental legislation in India: Environment Protection Act 1986, Air Act 1981, Water Act 1974, Wildlife Protection Act 1972, Forest Conservation Act 1980",
+              "Environmental movements in India: Chipko, Appiko, Silent Valley, Narmada Bachao; Environmental Ethics and Human Population growth"
+            ]
+          }
+        ]
+      },
+      "practical": {
+        "title": "Field Work & Environmental Project",
+        "topics": [
+          "Field visit to a local polluted site (River/Pond/Industrial area/Urban municipal dumpsite) and water/air quality analysis",
+          "Study of common local plants, insects, and birds in campus ecosystem",
+          "Preparation of an Environmental Action Plan for campus sustainability (Rainwater harvesting / Solar audit / Zero-waste drive)"
+        ],
+        "evaluation": [
+          {
+            "component": "Field Report & Continuous Assessment",
+            "marks": 30
+          },
+          {
+            "component": "End-Term Written Exam",
+            "marks": 50
+          },
+          {
+            "component": "Viva-Voce & Project Defense",
+            "marks": 20
+          }
+        ]
+      },
+      "suggestedBooks": [
+        "Bharucha, Erach - Textbook of Environmental Studies for Undergraduate Courses. Universities Press.",
+        "Kaushik, Anubha & Kaushik, C. P. - Perspectives in Environmental Studies. New Age International.",
+        "Odum, E. P. - Fundamentals of Ecology. Cengage Learning.",
+        "Sharma, P. D. - Ecology and Environment. Rastogi Publications."
+      ]
+    }
+  ],
+  "3rd": [
+    {
+      "courseTitle": "Disaster Risk Management",
+      "courseCode": "AEC-3",
+      "credits": "2",
+      "marks": "100",
+      "evaluationScheme": "End-Term Appraisal: 70 Marks | Internal Assessment: 30 Marks",
+      "courseObjectives": [
+        "To provide basic conceptual understanding of natural and human-induced disasters.",
+        "To teach disaster risk reduction (DRR), vulnerability assessment, and emergency preparedness.",
+        "To familiarize students with institutional mechanisms in India (NDMA, SDMA, NDRF) and community-based disaster management."
+      ],
+      "courseOutcomes": [
+        "CO1: Distinguish between Hazard, Vulnerability, Capacity, Risk, and Disaster.",
+        "CO2: Analyze the causes, vulnerability profiles, and impacts of floods, earthquakes, cyclones, droughts, and industrial accidents.",
+        "CO3: Execute disaster response phases: Early Warning, Evacuation, Search & Rescue, First Aid, and Rehabilitation.",
+        "CO4: Contribute to Community-Based Disaster Risk Reduction (CBDRR) plans and institutional standard operating procedures."
+      ],
+      "theory": {
+        "credits": "2",
+        "units": [
+          {
+            "unitNumber": 1,
+            "title": "Unit 1: Fundamentals of Disasters and Hazard Profiles",
+            "topics": [
+              "Concepts and definitions: Hazard, Risk, Vulnerability, Capacity, Disaster, Resilience",
+              "Classification of Disasters: Natural (Earthquakes, Tsunamis, Floods, Droughts, Cyclones, Landslides, Heatwaves) & Anthropogenic (Industrial leaks, Chemical explosions, Nuclear accidents, Forest fires, Stampedes, Epidemics)",
+              "Disaster vulnerability profile of India and Bihar (North Bihar Flood vulnerabilities, Seismic Zones IV & V, Drought prone belts)"
+            ]
+          },
+          {
+            "unitNumber": 2,
+            "title": "Unit 2: Disaster Management Cycle and Planning",
+            "topics": [
+              "Disaster Management Cycle: Pre-disaster (Mitigation, Preparedness, Prevention), During disaster (Search, Rescue, Evacuation, Emergency relief), Post-disaster (Rehabilitation, Reconstruction, Psycho-social support)",
+              "Early Warning Systems (EWS), Space technology and GIS in disaster forecasting",
+              "Disaster Risk Reduction (DRR) frameworks: Sendai Framework (2015-2030), Prime Minister's 10-Point Agenda on DRR"
+            ]
+          },
+          {
+            "unitNumber": 3,
+            "title": "Unit 3: Institutional Framework and Community Preparedness",
+            "topics": [
+              "Disaster Management Act 2005: Structure and role of NDMA, SDMA, DDMA, NDRF, SDRF, and Civil Defence",
+              "Community-Based Disaster Risk Management (CBDRM): Village Disaster Management Committees, School Safety Plans",
+              "Emergency First Aid, CPR, Fire safety protocols, and Survival kit preparation"
+            ]
+          }
+        ]
+      },
+      "practical": {
+        "title": "Mock Drill & Disaster Risk Assessment Practicum",
+        "topics": [
+          "Participation in campus Earthquake / Fire evacuation mock drills",
+          "Hazard, Vulnerability and Capacity Assessment (HVCA) mapping for a chosen local neighborhood or village",
+          "Demonstration of basic First Aid, bandaging, stretcher improvisation, and basic life support"
+        ],
+        "evaluation": [
+          {
+            "component": "Continuous Assessment & Drill Logbook",
+            "marks": 30
+          },
+          {
+            "component": "End-Term Written Exam",
+            "marks": 50
+          },
+          {
+            "component": "Viva-Voce & First Aid Demonstration",
+            "marks": 20
+          }
+        ]
+      },
+      "suggestedBooks": [
+        "National Disaster Management Authority (NDMA) - Guidelines and SOPs. Government of India.",
+        "Singh, S. R. (2016). Disaster Management. Oxford University Press.",
+        "Coppola, D. P. (2015). Introduction to International Disaster Management. Elsevier.",
+        "Modh, Satish. Managing Natural Disasters. MacMillan Publishers."
+      ]
+    }
+  ],
+  "4th": [
+    {
+      "courseTitle": "NCC / NSS / Social Services & Community Development",
+      "courseCode": "AEC-4",
+      "credits": "2",
+      "marks": "100",
+      "evaluationScheme": "End-Term Appraisal: 70 Marks | Internal Assessment: 30 Marks",
+      "courseObjectives": [
+        "To develop civic consciousness, leadership, discipline, and community development skills.",
+        "To engage undergraduate youth in constructive nation-building activities and community service.",
+        "To promote national unity, secularism, gender sensitivity, and health awareness."
+      ],
+      "courseOutcomes": [
+        "CO1: Demonstrate leadership, ethical values, and social responsibility in community action.",
+        "CO2: Mobilize community awareness for health, literacy, child protection, and sanitation.",
+        "CO3: Collaborate with local administration and NGOs during emergencies and civic campaigns.",
+        "CO4: Execute community development projects and maintain structured field activity logs."
+      ],
+      "theory": {
+        "credits": "2",
+        "units": [
+          {
+            "unitNumber": 1,
+            "title": "Unit 1: Leadership and Nation Building",
+            "topics": [
+              "Youth in nation-building: Role of NCC, NSS, and voluntary youth organizations",
+              "Leadership dynamics: Communication skills, decision making, conflict resolution, integrity, team building",
+              "National integration: Harmony, unity in diversity, social cohesion, and eradication of social evils"
+            ]
+          },
+          {
+            "unitNumber": 2,
+            "title": "Unit 2: Social Services and Community Engagement",
+            "topics": [
+              "Literacy drives, adult education, digital literacy in rural communities",
+              "Public health campaigns: Immunization, maternal health, prevention of communicable diseases, blood donation",
+              "Gender sensitization, prevention of female foeticide (Beti Bachao Beti Padhao), child rights, and anti-dowry awareness",
+              "Environmental stewardship: Tree plantation drives (Van Mahotsav), water body conservation, zero plastic advocacy"
+            ]
+          },
+          {
+            "unitNumber": 3,
+            "title": "Unit 3: Rural Development and Project Management",
+            "topics": [
+              "Panchayati Raj Institutions and rural grassroots governance",
+              "Planning community service projects: Baseline surveys, stakeholder consultations, resource mobilization, and impact assessment",
+              "Documentation, reporting, and media advocacy for community causes"
+            ]
+          }
+        ]
+      },
+      "practical": {
+        "title": "Community Outreach Field Project",
+        "topics": [
+          "Minimum 40 hours of active community field work / village camp / literacy drive / blood donation camp organization",
+          "Survey and documentation of a government welfare scheme implementation in a local area",
+          "Preparation and defense of a bound Community Service Project Report"
+        ],
+        "evaluation": [
+          {
+            "component": "Continuous Field Supervisor Evaluation & Logbook",
+            "marks": 30
+          },
+          {
+            "component": "End-Term Written Exam",
+            "marks": 50
+          },
+          {
+            "component": "Community Project Defense & Viva-Voce",
+            "marks": 20
+          }
+        ]
+      },
+      "suggestedBooks": [
+        "Ministry of Youth Affairs & Sports - Guidelines for Community Development and Youth Programmes.",
+        "Directorate General NCC - Cadet Handbook for Social Service and Community Development.",
+        "Rawat, H. K. (2013). Sociology: Basic Concepts. Rawat Publications."
+      ]
+    }
+  ]
+}

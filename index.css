@@ -1,0 +1,334 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *, .app-dark-mode, .app-dark-mode *));
+
+@layer base {
+  * {
+    -webkit-tap-highlight-color: transparent !important;
+    -webkit-touch-callout: none !important;
+  }
+
+  body, html, #root, #root * {
+    user-select: none !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+  }
+
+  input, textarea, input *, textarea *, [contenteditable="true"], [contenteditable="true"] * {
+    user-select: text !important;
+    -webkit-user-select: text !important;
+    -moz-user-select: text !important;
+    -ms-user-select: text !important;
+  }
+}
+
+@layer utilities {
+  .custom-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .custom-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+}
+
+/* =========================================================
+   GLOBAL APPLICATION DARK THEME SYSTEM
+   Ensures 100% contrast: Pure light text on dark backgrounds,
+   no white gradient artifacts, no unreadable dark-on-dark text.
+   ========================================================= */
+
+.app-dark-mode {
+  background-color: #070d17 !important;
+  color: #f8fafc !important;
+  color-scheme: dark;
+}
+
+.app-dark-mode body {
+  background-color: #070d17 !important;
+  color: #f8fafc !important;
+}
+
+/* Main background container */
+.app-dark-mode .bg-\[\#eaf4fb\],
+.app-dark-mode .bg-\[\#eaf4fc\],
+.app-dark-mode .bg-slate-100 {
+  background-color: #070d17 !important;
+}
+
+/* Surfaces, Cards, and Accordions */
+.app-dark-mode .bg-white {
+  background-color: #0d1a2d !important;
+  color: #f8fafc !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.app-dark-mode .bg-slate-50 {
+  background-color: #11223b !important;
+  color: #f1f5f9 !important;
+  border-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.app-dark-mode .bg-slate-200,
+.app-dark-mode .bg-slate-200\/50 {
+  background-color: #1a2c48 !important;
+  color: #e2e8f0 !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.app-dark-mode .bg-slate-900,
+.app-dark-mode .bg-slate-950 {
+  background-color: #050b14 !important;
+}
+
+/* Gradients override in dark mode: prevents white card header glitch */
+.app-dark-mode .bg-gradient-to-r,
+.app-dark-mode [class*="from-slate-50"][class*="to-white"] {
+  background-image: linear-gradient(to right, #112240, #0d1a2d) !important;
+}
+
+.app-dark-mode [class*="from-amber-50"][class*="to-orange-50"] {
+  background-image: linear-gradient(to right, rgba(120, 53, 15, 0.35), rgba(67, 20, 7, 0.35)) !important;
+  border-color: rgba(245, 158, 11, 0.3) !important;
+}
+
+.app-dark-mode [class*="from-blue-50"][class*="to-indigo-50"] {
+  background-image: linear-gradient(to right, rgba(30, 58, 138, 0.35), rgba(49, 46, 129, 0.35)) !important;
+  border-color: rgba(59, 130, 246, 0.3) !important;
+}
+
+/* Borders in Dark Mode */
+.app-dark-mode .border-slate-100,
+.app-dark-mode .border-slate-200,
+.app-dark-mode .border-slate-200\/60,
+.app-dark-mode .border-slate-200\/80,
+.app-dark-mode .border-slate-300 {
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.app-dark-mode .divide-slate-100 > :not([hidden]) ~ :not([hidden]),
+.app-dark-mode .divide-slate-200 > :not([hidden]) ~ :not([hidden]) {
+  border-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+/* Typography in Dark Mode: Strict High-Contrast White / Light */
+.app-dark-mode h1,
+.app-dark-mode h2,
+.app-dark-mode h3,
+.app-dark-mode h4,
+.app-dark-mode h5,
+.app-dark-mode h6 {
+  color: #ffffff !important;
+}
+
+.app-dark-mode .text-slate-900,
+.app-dark-mode .text-slate-800,
+.app-dark-mode .text-slate-700,
+.app-dark-mode .text-slate-600 {
+  color: #f1f5f9 !important;
+}
+
+.app-dark-mode .text-slate-500,
+.app-dark-mode .text-slate-400 {
+  color: #cbd5e1 !important;
+}
+
+/* Category & Colored text in dark mode (keeps brightness high) */
+.app-dark-mode [class*="text-amber-950"],
+.app-dark-mode [class*="text-amber-900"],
+.app-dark-mode [class*="text-amber-800"] {
+  color: #fef08a !important;
+}
+
+.app-dark-mode [class*="text-blue-950"],
+.app-dark-mode [class*="text-blue-900"],
+.app-dark-mode [class*="text-blue-800"],
+.app-dark-mode [class*="text-blue-700"] {
+  color: #93c5fd !important;
+}
+
+.app-dark-mode [class*="text-emerald-950"],
+.app-dark-mode [class*="text-emerald-900"],
+.app-dark-mode [class*="text-emerald-800"],
+.app-dark-mode [class*="text-emerald-700"] {
+  color: #86efac !important;
+}
+
+.app-dark-mode [class*="text-purple-950"],
+.app-dark-mode [class*="text-purple-900"],
+.app-dark-mode [class*="text-purple-800"] {
+  color: #e9d5ff !important;
+}
+
+.app-dark-mode [class*="text-red-950"],
+.app-dark-mode [class*="text-red-900"],
+.app-dark-mode [class*="text-red-800"] {
+  color: #fca5a5 !important;
+}
+
+/* Pastel Containers & Boxes in Dark Mode */
+.app-dark-mode [class*="bg-amber-50"] {
+  background-color: rgba(120, 53, 15, 0.28) !important;
+  border-color: rgba(245, 158, 11, 0.35) !important;
+  color: #fef08a !important;
+}
+
+.app-dark-mode [class*="bg-blue-50"] {
+  background-color: rgba(30, 58, 138, 0.3) !important;
+  border-color: rgba(59, 130, 246, 0.35) !important;
+  color: #bfdbfe !important;
+}
+
+.app-dark-mode [class*="bg-emerald-50"],
+.app-dark-mode [class*="bg-green-50"] {
+  background-color: rgba(6, 78, 59, 0.3) !important;
+  border-color: rgba(16, 185, 129, 0.35) !important;
+  color: #a7f3d0 !important;
+}
+
+.app-dark-mode [class*="bg-purple-50"],
+.app-dark-mode [class*="bg-violet-50"] {
+  background-color: rgba(88, 28, 135, 0.3) !important;
+  border-color: rgba(168, 85, 247, 0.35) !important;
+  color: #e9d5ff !important;
+}
+
+.app-dark-mode [class*="bg-rose-50"],
+.app-dark-mode [class*="bg-red-50"] {
+  background-color: rgba(136, 19, 55, 0.3) !important;
+  border-color: rgba(244, 63, 94, 0.35) !important;
+  color: #fecdd3 !important;
+}
+
+/* Topic Item & Accordion Elements in Dark Mode */
+.app-dark-mode li.bg-slate-50,
+.app-dark-mode .app-topic-card {
+  background-color: #11223b !important;
+  border-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.app-dark-mode li.bg-slate-50:hover {
+  border-color: rgba(255, 255, 255, 0.2) !important;
+  background-color: #152945 !important;
+}
+
+.app-dark-mode button.bg-white {
+  background-color: #162740 !important;
+  border-color: rgba(255, 255, 255, 0.12) !important;
+  color: #f8fafc !important;
+}
+
+.app-dark-mode button.bg-white:hover {
+  background-color: #1c3252 !important;
+  border-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+/* Tables in Dark Mode */
+.app-dark-mode table {
+  border-color: rgba(255, 255, 255, 0.12) !important;
+  background-color: #0d1a2d !important;
+}
+
+.app-dark-mode thead,
+.app-dark-mode th {
+  background-color: #162844 !important;
+  color: #ffffff !important;
+  border-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+.app-dark-mode td {
+  color: #f1f5f9 !important;
+  border-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.app-dark-mode tr:hover {
+  background-color: rgba(255, 255, 255, 0.04) !important;
+}
+
+/* Interactive Hover States in Dark Mode */
+.app-dark-mode .hover\:bg-slate-50:hover,
+.app-dark-mode .hover\:bg-slate-100:hover {
+  background-color: #172a47 !important;
+}
+
+.app-dark-mode .hover\:bg-white\/90:hover {
+  background-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+/* Input Fields and Selects */
+.app-dark-mode input,
+.app-dark-mode select,
+.app-dark-mode textarea {
+  background-color: #11223b !important;
+  color: #ffffff !important;
+  border-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+.app-dark-mode input::placeholder,
+.app-dark-mode textarea::placeholder {
+  color: #94a3b8 !important;
+}
+
+/* Modals, Popovers, and Dropdowns */
+.app-dark-mode .shadow-xl,
+.app-dark-mode .shadow-2xl,
+.app-dark-mode .shadow-lg,
+.app-dark-mode .shadow-sm {
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.6), 0 8px 10px -6px rgba(0, 0, 0, 0.6) !important;
+}
+
+/* Mobile View 60% Size Reduction for Footer Container */
+@media (max-width: 639px) {
+  #app-footer-container,
+  div#root > div > footer > div:nth-of-type(1) {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+  }
+}
+
+/* Full Width & Optimized Spacing for Syllabus Sections */
+@media (max-width: 639px) {
+  div#root > div > main > div > div > div > div > div:nth-of-type(2) {
+    padding-left: 0.375rem !important;
+    padding-right: 0.375rem !important;
+  }
+}
+
+/* High Contrast & Clear Text for Syllabus Section Topics */
+.topic-high-contrast-text {
+  color: #0f172a;
+  font-weight: 600;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.dark .topic-high-contrast-text,
+.app-dark-mode .topic-high-contrast-text {
+  color: #f8fafc !important;
+  font-weight: 600 !important;
+}
+
+/* Highlighted Unit Header and Badges */
+.unit-highlight-badge {
+  box-shadow: 0 1px 2px rgba(217, 119, 6, 0.2);
+}
+
+.unit-highlight-name {
+  box-shadow: 0 1px 2px rgba(217, 119, 6, 0.15);
+}
+
+.dark .unit-highlight-badge,
+.app-dark-mode .unit-highlight-badge {
+  background-color: #f59e0b !important;
+  color: #020617 !important;
+}
+
+.dark .unit-highlight-name,
+.app-dark-mode .unit-highlight-name {
+  color: #fef08a !important;
+  background-color: rgba(161, 98, 7, 0.4) !important;
+  border-color: rgba(234, 179, 8, 0.5) !important;
+}
+

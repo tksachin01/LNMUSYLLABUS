@@ -1,0 +1,6 @@
+{
+  "name": "LNMU Syllabus Buddy",
+  "description": "An academic syllabus explorer for Lalit Narayan Mithila University (LNMU) with dynamic 'Share to AI' prompts for detailed learning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,550 @@
+[
+  {
+    "courseTitle": "Advance Spreadsheet Tools",
+    "courseCode": "SEC-1",
+    "credits": "3",
+    "marks": "100",
+    "evaluationScheme": "End-Term Appraisal: 70 Marks | Internal Assessment: 30 Marks",
+    "courseObjectives": [
+      "To enable the students to use Excel for advanced data analysis",
+      "To equip the students with automation skills on excel",
+      "To enable the students to use excel for informed decision making."
+    ],
+    "courseOutcomes": [
+      "CO1: Make meaningful representations of data in the form of charts and pivot tables.",
+      "CO2: Draw analysis on data using spreadsheets and use interpretation to make decisions.",
+      "CO3: Generate word documents with appropriate formatting, layout, proofing.",
+      "CO4: Manage data for generating queries, forms and reports in a database."
+    ],
+    "theory": {
+      "credits": "1",
+      "units": [
+        {
+          "unitNumber": 1,
+          "title": "Unit 1: Excel Advanced Techniques",
+          "topics": [
+            "Templates, Efficiency, and Risk (Standard Deviation, Variance, and Coefficient of Variation), Data Validation",
+            "*Functions and Power functions, Array Formulae (Frequency Distribution, mode.mult, mode.sngl), Tables, Advanced Range Names",
+            "What-if-analysis: Goal-seek, Data tables, and Scenario Manager",
+            "Data analysis ToolPak: Descriptive Statistics, Moving averages, Histogram, Covariance, correlation, and Regression analysis (only for projection); solver add in",
+            "Problem Solving using Solver (optimal product mix, workforce scheduling, transportation, capital budgeting, financial planning)",
+            "Integrating excel with other tools: MS word, outlook, PowerPoint, Access, Power BI"
+          ]
+        },
+        {
+          "unitNumber": 2,
+          "title": "Unit 2: Excel Interactivity and Automation",
+          "topics": [
+            "Index and Match, Offset, Dynamic Charting, Database functions, Text functions, and Error functions: IfError, IsError, Aggregate, Circular Reference, Formula Auditing, Floating-Point Errors",
+            "Form Controls (Button, Combo, Check box, Spinner, List, Option), Visual Basic (only basic)",
+            "Recording Macros, Absolute and relative macros, editing macros, Use of spinner buttons and command buttons",
+            "Sub Procedure, Function Procedure (creating New Functions)",
+            "Working with Loops: Do_while loop, For_Next loop; Creating User Forms: Message Box, Input Box; If_Then_Else"
+          ]
+        },
+        {
+          "unitNumber": 3,
+          "title": "Unit 3: Introduction to VBA",
+          "topics": [
+            "Conditional Formatting, Charts that Inspire (Waterfall, Column, Line, Combo, Thermometer, Scatter, Histogram)",
+            "Sheets, Sparklines, Graphics Tricks and Techniques",
+            "Worksheet Automation using Macros: Absolute and relative macros, editing macros",
+            "Creating new functions using macros, Use of spinner buttons and command buttons"
+          ]
+        },
+        {
+          "unitNumber": 4,
+          "title": "Unit 4: Data Analysis and Decision-Making",
+          "topics": [
+            "Working with External Data, Advanced Uses of PivotTables, PowerPivot, Reporting with PowerPivot, Power query, Dashboard",
+            "Creating a spreadsheet in the area of: Loan and Lease statement; Ratio Analysis; Payroll Accounting; Capital Budgeting (NPV & IRR), Portfolio Management, Breakeven analysis, and Sensitivity analysis",
+            "Operations Management: Constraint, Forecasting & Trend Analysis optimization, Assignment Problems; Depreciation Accounting (Single Method)",
+            "Graphical representation of data; Frequency distribution and its statistical parameters; Correlation and Regression Analysis"
+          ]
+        }
+      ]
+    },
+    "practical": {
+      "title": "Practical Exercises & Lab Application (3 Hours/Week)",
+      "topics": [
+        "Creation of dynamic financial models, loan amortization schedules, and multi-variable scenario dashboards",
+        "Automating data extraction and worksheet formatting using VBA macros and user forms",
+        "Statistical regression and trend projections using Excel Data Analysis ToolPak",
+        "PowerPivot relational modeling and interactive KPI reporting"
+      ],
+      "evaluation": [
+        {
+          "component": "Continuous Assessment & Practical Logbook",
+          "marks": 30
+        },
+        {
+          "component": "End-Term Practical Lab Exam",
+          "marks": 50
+        },
+        {
+          "component": "Viva-Voce & Presentation",
+          "marks": 20
+        }
+      ]
+    },
+    "suggestedBooks": [
+      "Alexander, M. & Kusleika, D. - Excel 2016 Power Programming with VBA, Wiley.",
+      "Sengupta, C. - Financial Analysis and Modelling Using Excel and VBA, 2nd ed., Wiley Student Edition.",
+      "Winston, W. - MS Excel 2016, Data Analysis & Business Modelling, PHI.",
+      "Winston, W. L. (2017) - Microsoft Excel 2016 Data Analysis and Business Modelling, Microsoft Press.",
+      "Griffiths, D. - Microsoft Excel Practical Formulae: From Basic Data Analysis to Advanced Formulae Manipulation."
+    ]
+  },
+  {
+    "courseTitle": "Basic IT Tools",
+    "courseCode": "SEC-1",
+    "credits": "3",
+    "marks": "100",
+    "evaluationScheme": "End-Term Appraisal: 70 Marks | Internal Assessment: 30 Marks",
+    "courseObjectives": [
+      "To enable students develop IT skills that are a pre-requisite in today's work environment.",
+      "To equip them with basic computing skills that will enhance their employability in general.",
+      "To enable the student to analyse and present information in a meaningful manner."
+    ],
+    "courseOutcomes": [
+      "CO1: Use word-processor to generate documents with appropriate formatting, layout, review and referencing.",
+      "CO2: Manage data in worksheets and workbooks and analyze it using spreadsheet functions and inbuilt formulas.",
+      "CO3: Draw analysis on data using spreadsheets to make decisions and generate charts & pivot tables.",
+      "CO4: Manage data in database tables and use the same for generating queries, forms and reports."
+    ],
+    "theory": {
+      "credits": "1",
+      "units": [
+        {
+          "unitNumber": 1,
+          "title": "Unit 1: Introduction to Spreadsheets",
+          "topics": [
+            "Concept of worksheets and workbooks, creating, opening, closing and saving workbooks, moving, copying, inserting, deleting and renaming worksheets",
+            "Working with multiple worksheets and workbooks, controlling worksheet views, cell naming via name box, define name",
+            "Exchanging data using clipboard, object linking and embedding; Page setup, margins, headers/footers, printing formula",
+            "Absolute, relative and mixed cell referencing, formula error handling",
+            "Inbuilt functions: mathematical, statistical, text, lookup, information, logical, database, date & time, basic financial"
+          ]
+        },
+        {
+          "unitNumber": 2,
+          "title": "Unit 2: Data Analysis in Spreadsheets",
+          "topics": [
+            "Consolidating worksheets and workbooks using formulae and data consolidate command",
+            "Choosing chart types, data points and series, formatting chart elements, sparklines",
+            "Analyzing data using pivot tables: formatting, sorting, filtering, calculated fields, pivot charts and reporting",
+            "Introduction to recording and execution of macros"
+          ]
+        },
+        {
+          "unitNumber": 3,
+          "title": "Unit 3: Word Processing",
+          "topics": [
+            "Creating and saving documents, views, paragraph styles, indents, tabs, alignment, borders and shading",
+            "Page setup: margins, orientation, headers/footers, endnotes/footnotes, section breaks",
+            "Working with tables: layout, sorting, graphic insertion, table math, text-to-table conversion",
+            "Columns, indexes, table of contents, spell check, custom dictionaries, thesaurus, find/replace",
+            "Bookmarks, cross-referencing, hyperlinking, bibliography compilation; Mail Merge: data source, filters, conditional merge"
+          ]
+        },
+        {
+          "unitNumber": 4,
+          "title": "Unit 4: Databases",
+          "topics": [
+            "Database terminology, objects, creating tables, field properties, data types, primary keys, validation rules, indexing",
+            "Relationships & referential integrity, joins, sorting and filtering",
+            "Queries: Query by design & wizard (Select, Make Table, Append, Delete, Cross Tab, Parameterized, Duplicate, Unmatched)",
+            "Forms: bound/unbound controls, subforms, combo/list boxes; Reports: grouping, headers/footers, subreports"
+          ]
+        }
+      ]
+    },
+    "practical": {
+      "title": "Hands-on Practical & Lab Exercises",
+      "topics": [
+        "Word processing: Mail merge, complex table formatting, and research report structure generation",
+        "Spreadsheets: Multi-sheet consolidation, nested lookup formulas, and Pivot Table reports",
+        "Database management: Creating relational tables, multi-table queries, and printable report generation"
+      ],
+      "evaluation": [
+        {
+          "component": "Continuous Lab Assessment & Assignments",
+          "marks": 30
+        },
+        {
+          "component": "End-Term Practical Lab Exam",
+          "marks": 50
+        },
+        {
+          "component": "Viva-Voce",
+          "marks": 20
+        }
+      ]
+    },
+    "suggestedBooks": [
+      "Swinford, E., Dodge, M., Couch, A., Melton, B. A. (2013). Microsoft Office Professional 2013. O'Reilly Media.",
+      "Wang, W. (2018). Office 2019 For Dummies. Wiley.",
+      "Lambert, J. (2019). Microsoft Word 2019 Step by Step. Pearson Education.",
+      "Jelen, B. (2013). Excel 2013 Charts and Graphs. Que.",
+      "Alexander, M., Kusleika, R. (2018). Access 2019 Bible. Wiley."
+    ]
+  },
+  {
+    "courseTitle": "Creative Writing",
+    "courseCode": "SEC-1",
+    "credits": "3",
+    "marks": "100",
+    "evaluationScheme": "End-Term Appraisal: 70 Marks | Internal Assessment: 30 Marks",
+    "courseObjectives": [
+      "To build creative writing skills of students in the main modes of creative writing viz poetry, fiction, non-fiction and drama.",
+      "To inculcate practical skills in students by mapping their creative talent for employability.",
+      "To perform hands-on activities to develop creative skills through practical sessions."
+    ],
+    "courseOutcomes": [
+      "CO1: Be sensitive to the texture of literary language and develop craft in creative writing.",
+      "CO2: Express ideas through poetry, short story, and biography.",
+      "CO3: Induce an understanding of the relationship between individual and society.",
+      "CO4: Gain skills in drama writing, performance, proofreading, editing, and publishing."
+    ],
+    "theory": {
+      "credits": "1",
+      "units": [
+        {
+          "unitNumber": 1,
+          "title": "Unit 1: Introduction to Creative Writing",
+          "topics": [
+            "Introduction to Creative Writing: Meaning, Importance",
+            "Imagination & Writing: Peer-interaction, Activities on Imagination",
+            "Tropes, Motifs and Figures: Learning through media and literature, Discussion on findings",
+            "Craft of Writing: Figures of Speech, Word Play, Character Creation",
+            "Character Creation: Dialogue Enaction, Character Analysis across gender, social background, ethnicity"
+          ]
+        },
+        {
+          "unitNumber": 2,
+          "title": "Unit 2: Close Reading & Editing",
+          "topics": [
+            "Close Reading: Analysis and Interpretation of literary works in small groups",
+            "Practice Writing Sessions on theme exploration",
+            "Proofreading & Editing: Practical sessions on manuscript correction and editing"
+          ]
+        },
+        {
+          "unitNumber": 3,
+          "title": "Unit 3: Genres of Creative Writing & Publishing",
+          "topics": [
+            "Steps of Creative Writing: Pre-Writing, Writing, Post-Writing / Final Draft",
+            "Poetry: Tone, rhyme, metre, free verse and stanzas",
+            "Fiction: Elements of short story, novella, novel; character arc, plot structure",
+            "Non-Fiction: Biographies, autobiographies, memoirs, travel narratives",
+            "Drama: Elements of drama (plot, character, climax, verbal and non-verbal cues)",
+            "Submission & Publication: Traditional and digital publishing platforms, submission guidelines"
+          ]
+        }
+      ]
+    },
+    "practical": {
+      "title": "Creative Writing Workshop & Portfolio",
+      "topics": [
+        "Poetry and short story drafting workshop with peer feedback",
+        "Writing book reviews, film reviews, and media columns",
+        "Dramatic script writing and rehearsed dialogue reading",
+        "Compilation and submission of an original creative writing portfolio"
+      ],
+      "evaluation": [
+        {
+          "component": "Continuous Creative Portfolio & Workshop Work",
+          "marks": 30
+        },
+        {
+          "component": "End-Term Creative Submission Exam",
+          "marks": 50
+        },
+        {
+          "component": "Viva-Voce & Reading Presentation",
+          "marks": 20
+        }
+      ]
+    },
+    "suggestedBooks": [
+      "Dev, Anjana Neira et al. (2008). Creative Writing: A Beginners' Manual. Pearson, New Delhi.",
+      "Morley, David (2007). The Cambridge Introduction to Creative Writing. Cambridge University Press."
+    ]
+  },
+  {
+    "courseTitle": "Communication in Everyday Life",
+    "courseCode": "SEC-1",
+    "credits": "3",
+    "marks": "100",
+    "evaluationScheme": "End-Term Appraisal: 70 Marks | Internal Assessment: 30 Marks",
+    "courseObjectives": [
+      "To lay down a basic foundation for communication that is a part of a student's everyday life.",
+      "To inculcate fundamentals with the aim to enhance listening, speaking and writing skills.",
+      "To hone practical skills that can be used in day-to-day affairs."
+    ],
+    "courseOutcomes": [
+      "CO1: Improve mediation skills and foster social understanding.",
+      "CO2: Enhance active listening and audio-book comprehension.",
+      "CO3: Deliver structured oral presentations, participate in group discussions, and handle interviews.",
+      "CO4: Master reading comprehension and written communication (essays, letters, reports)."
+    ],
+    "theory": {
+      "credits": "1",
+      "units": [
+        {
+          "unitNumber": 1,
+          "title": "Unit 1: Theory of Communication",
+          "topics": [
+            "Meaning, Features, Uses, Cycle, Feedback, Advantages",
+            "Barriers to Communication and overcoming strategies",
+            "7 C's of Effective Communication"
+          ]
+        },
+        {
+          "unitNumber": 2,
+          "title": "Unit 2: Listening Skills",
+          "topics": [
+            "Netiquettes of spoken and audio communication",
+            "Audio-book Listening & Group Discussions",
+            "Note-taking techniques during lectures and conversations"
+          ]
+        },
+        {
+          "unitNumber": 3,
+          "title": "Unit 3: Speaking Skills",
+          "topics": [
+            "Oral Presentation: Audio-Visual aids, Audience & Feedback, Delivery, Handling Questions",
+            "Group Discussion: Culture, History, Current Affairs, Society",
+            "Public Speaking: Public Speech, Extempore delivery",
+            "Interview: Personal, Conversational, Public"
+          ]
+        },
+        {
+          "unitNumber": 4,
+          "title": "Unit 4: Reading Skills",
+          "topics": [
+            "Close Reading techniques for critical understanding",
+            "Skimming for core arguments and themes",
+            "Scanning for factual data and references"
+          ]
+        },
+        {
+          "unitNumber": 5,
+          "title": "Unit 5: Writing Skills & Interpersonal Communication",
+          "topics": [
+            "Summarising and Paraphrasing, Note-making",
+            "Essays: Expository Essay, Descriptive Essay, Narrative Essay",
+            "Letter Writing: Formal Letter, Informal Letter",
+            "Reports: Incident Report, Newspaper Report, Organisational Report",
+            "Textual Analysis & Interpretation; Monologues and Dialogues"
+          ]
+        }
+      ]
+    },
+    "practical": {
+      "title": "Interactive Communication Practice Sessions",
+      "topics": [
+        "Classroom group discussions and mock personal interviews",
+        "Extempore speaking and audio-visual presentations",
+        "Drafting official letters, incident reports, and summaries"
+      ],
+      "evaluation": [
+        {
+          "component": "Continuous Practice & Classroom Participation",
+          "marks": 30
+        },
+        {
+          "component": "End-Term Written & Practical Exam",
+          "marks": 50
+        },
+        {
+          "component": "Oral Presentation Viva",
+          "marks": 20
+        }
+      ]
+    },
+    "suggestedBooks": [
+      "Chaudhary, Shoma (2006). Understanding Interviews. Tehelka.",
+      "Kumar, Dinesh (2006). Understanding Values, Our Muddled Generation. The Hindu.",
+      "Fluency in English II (2015), ed. Varma & Sanyal. Oxford University Press, New Delhi.",
+      "Fluency in English I (2015), ed. Varma, Sanyal & Dev. Oxford University Press."
+    ]
+  },
+  {
+    "courseTitle": "Public Speaking in English Language & Leadership",
+    "courseCode": "SEC-1",
+    "credits": "3",
+    "marks": "100",
+    "evaluationScheme": "End-Term Appraisal: 70 Marks | Internal Assessment: 30 Marks",
+    "courseObjectives": [
+      "To impart leadership skills along with adequate communication skills to curate strong leaders.",
+      "To create leaders with ethics and resilience in industry and social fields.",
+      "To curate employable leadership skills through a hands-on practical approach."
+    ],
+    "courseOutcomes": [
+      "CO1: Master public speaking as a catalyst for leadership development.",
+      "CO2: Lead in academic, social, and corporate spheres.",
+      "CO3: Cultivate an assertive, ethical, and critical mindset.",
+      "CO4: Excel in speech writing, delivery, TED talks, and Mock Parliament / MUNs."
+    ],
+    "theory": {
+      "credits": "1",
+      "units": [
+        {
+          "unitNumber": 1,
+          "title": "Unit 1: Introduction to Effective Communication",
+          "topics": [
+            "Features, Advantages & Disadvantages of Communication",
+            "Importance of Active Listening in Leadership",
+            "Oral communication: Meaning, Features & Importance",
+            "Reading Public Speech: Analyzing historic speeches, word play, vocabulary"
+          ]
+        },
+        {
+          "unitNumber": 2,
+          "title": "Unit 2: Public Speaking Dynamics",
+          "topics": [
+            "What is Speech?, Overcoming Fear of Public Speaking, Language of Public Speech",
+            "Drafting a Public Speech (Reading, research, writing, Fact check, Re-writing, Delivery)",
+            "3P's of Public Speaking (Preparation, Practice, Performance)",
+            "Rhetoric Skills, Informative & Persuasive Speaking, Concluding with Power",
+            "Types: Physical & Online; Political, Organisational, Educational & Motivational; TED Talks, Media Speaking",
+            "Listening in groups, Analysis of famous speeches, Classroom speech writing"
+          ]
+        },
+        {
+          "unitNumber": 3,
+          "title": "Unit 3: Leadership Skills and Innovations",
+          "topics": [
+            "Leadership Meaning, Features & Importance; Historical Overview",
+            "Leadership in Academic Life, Corporate Space, Public Life, Social and Political Leadership",
+            "Audience analysis, Audience Engagement & Influencing through Leadership",
+            "Execution & Delivery: Body Language & Paralanguage via ICT",
+            "Competence development: Intra-class Speech Competitions, Extempore, Group Discussion"
+          ]
+        },
+        {
+          "unitNumber": 4,
+          "title": "Unit 4: Leadership Ethics & Mock Assemblies",
+          "topics": [
+            "Ethics in Public Speaking & Leadership",
+            "Mock Parliament / Model United Nations (MUNs)",
+            "Interactive Speaking Workshops"
+          ]
+        }
+      ]
+    },
+    "practical": {
+      "title": "Speech Delivery Lab & Mock Parliament Simulations",
+      "topics": [
+        "Delivering timed persuasive, motivational, and extempore speeches",
+        "Participating in Mock Parliament proceedings and MUN committees",
+        "Video-recorded speech review for body language and vocal modulation"
+      ],
+      "evaluation": [
+        {
+          "component": "Continuous Speech Performance & Participation",
+          "marks": 30
+        },
+        {
+          "component": "End-Term Speech Drafting & Delivery Examination",
+          "marks": 50
+        },
+        {
+          "component": "Viva-Voce & Parliamentary Debate Defense",
+          "marks": 20
+        }
+      ]
+    },
+    "suggestedBooks": [
+      "Beebe, S. A., & Beebe, S. J. (2012). Public Speaking: An Audience-Centred Approach, 8th ed. Pearson.",
+      "Cardon, P. (2014). Business Communication: Developing Leaders for a Networked World. McGraw-Hill.",
+      "Jaffe, C. I. (2013). Public Speaking: Concepts & Skills for a Diverse Society, 7th ed. Cengage Learning."
+    ]
+  },
+  {
+    "courseTitle": "Digital Marketing",
+    "courseCode": "SEC-1",
+    "credits": "3",
+    "marks": "100",
+    "evaluationScheme": "End-Term Appraisal: 70 Marks | Internal Assessment: 30 Marks",
+    "courseObjectives": [
+      "To acquaint students with integration between traditional and digital marketing concepts.",
+      "To familiarize students with tools and techniques used for digital marketing decisions."
+    ],
+    "courseOutcomes": [
+      "CO1: Understand digital marketing concepts and consumer value journeys.",
+      "CO2: Formulate content, email, and social media marketing campaigns.",
+      "CO3: Execute SEO audits, on-page optimization, and paid search advertising (SEM).",
+      "CO4: Analyze web performance metrics to optimize ROI."
+    ],
+    "theory": {
+      "credits": "1",
+      "units": [
+        {
+          "unitNumber": 1,
+          "title": "Unit 1: Marketing in the Digital World",
+          "topics": [
+            "Digital marketing: Concept, Features, Difference between traditional and digital marketing",
+            "Channels: Intent Based (SEO, Search Ads), Brand Based (Display Ads), Community Based (Social Media), Affiliate, Email, Content, Mobile",
+            "Customer Value Journey: 5As Framework, Ozone 03 Concept Key, Online consumer traits"
+          ]
+        },
+        {
+          "unitNumber": 2,
+          "title": "Unit 2: Content and Email Marketing",
+          "topics": [
+            "Content Marketing: Strategy development, storytelling, distribution channels",
+            "Email Marketing: Types of emails, list segmentation, automated workflows, best practices"
+          ]
+        },
+        {
+          "unitNumber": 3,
+          "title": "Unit 3: Social Media Marketing and Display Marketing",
+          "topics": [
+            "Social Media Marketing: Building strategy across Facebook, LinkedIn, YouTube, Instagram",
+            "Display Advertising: Working process, targeting, format, budget, ad copy and creative design"
+          ]
+        },
+        {
+          "unitNumber": 4,
+          "title": "Unit 4: Search Engine Marketing & SEO",
+          "topics": [
+            "Working of Search Engines, SERP positioning, DMI's 5P Customer Search Insights Model",
+            "SEO: On-page (keyword research, site structure, meta tags, sitemaps, structured data) & Off-page (backlink building, white-hat techniques)",
+            "SEM / Google Ads: PPC process, campaign setup, bidding strategies, ad extensions, quality score"
+          ]
+        }
+      ]
+    },
+    "practical": {
+      "title": "Digital Marketing Campaign Lab",
+      "topics": [
+        "Setting up simulated Google Ads campaigns and keyword research",
+        "Conducting website SEO audits and content optimization",
+        "Creating social media ad copies, display banners, and email newsletters"
+      ],
+      "evaluation": [
+        {
+          "component": "Continuous Campaign Portfolio & Assignments",
+          "marks": 30
+        },
+        {
+          "component": "End-Term Examination",
+          "marks": 50
+        },
+        {
+          "component": "Campaign Defense Viva",
+          "marks": 20
+        }
+      ]
+    },
+    "suggestedBooks": [
+      "Dodson, I. (2016). The Art of Digital Marketing. Wiley.",
+      "Kotler, P., Kartajaya, H., & Setiawan, I. (2016). Marketing 4.0. Wiley.",
+      "Ryan, D. (2016). Understanding Digital Marketing. Kogan Page.",
+      "Maity, M. Internet Marketing: A Practical Approach. Oxford University Press.",
+      "Gupta, S. Digital Marketing. McGraw Hill."
+    ]
+  }
+]

@@ -1,0 +1,528 @@
+[
+  {
+    "courseTitle": "Big Data Analysis",
+    "courseCode": "SEC-2",
+    "credits": "3",
+    "marks": "100",
+    "evaluationScheme": "End-Term Appraisal: 70 Marks | Internal Assessment: 30 Marks",
+    "courseObjectives": [
+      "To Understand the Big Data Platform and its Uses",
+      "Provide an overview of Apache Hadoop",
+      "Provide HDFS Concepts and Interfacing with HDFS",
+      "Provide hands on Hadoop Eco System and understand Spark framework"
+    ],
+    "courseOutcomes": [
+      "CO1: Identify Big Data and its Business Implications.",
+      "CO2: List and operate components of Hadoop and Hadoop Eco-System.",
+      "CO3: Access and process data on distributed file systems (HDFS).",
+      "CO4: Manage job execution in Hadoop environment and develop Big Data Solutions using Spark."
+    ],
+    "theory": {
+      "credits": "1",
+      "units": [
+        {
+          "unitNumber": 1,
+          "title": "Unit 1: Fundamentals of Big Data Analysis",
+          "topics": [
+            "Data Storage and Analysis, Characteristics of Big Data (5 V's), Big Data Analytics",
+            "Typical Analytical Architecture, Requirement for new analytical architecture",
+            "Challenges in Big Data Analytics - Need of big data frameworks"
+          ]
+        },
+        {
+          "unitNumber": 2,
+          "title": "Unit 2: Hadoop Framework",
+          "topics": [
+            "Hadoop: Requirement of Hadoop Framework, Design principle of Hadoop - Comparison with other system",
+            "Hadoop Components: Hadoop 1 vs Hadoop 2, Hadoop Daemon's - HDFSCommands",
+            "Map Reduce Programming: I/O formats, Map side join, Reduce Side Join, Secondary sorting, Pipelining Map Reduce jobs"
+          ]
+        },
+        {
+          "unitNumber": 3,
+          "title": "Unit 3: HDFS (Hadoop Distributed File System)",
+          "topics": [
+            "The Design of HDFS, HDFS Concepts, Command Line Interface, Hadoop file system interfaces",
+            "Data flow, Data Ingest with Flume and Scoop and Hadoop archives",
+            "Hadoop I/O: Compression, Serialization, Avro and File-Based Data structures"
+          ]
+        },
+        {
+          "unitNumber": 4,
+          "title": "Unit 4: Spark Framework and Data Analysis with Spark Shell",
+          "topics": [
+            "Introduction to GPU Computing, CUDA Programming Model, CUDA API, Simple Matrix Multiplication in CUDA",
+            "CUDA Memory Model, Shared Memory Matrix Multiplication, Additional CUDA API Features",
+            "Writing Spark Application - Spark Programming in Scala, Python, R, Java - Application Execution"
+          ]
+        }
+      ]
+    },
+    "practical": {
+      "title": "Big Data Practical Exercises (3 Hours/Week)",
+      "topics": [
+        "Downloading and installing Hadoop; Understanding different Hadoop modes, Startup scripts, Configuration files",
+        "Hadoop Implementation of file management tasks: Adding files/directories, retrieving files and Deleting files",
+        "Run a basic word count MapReduce program and analyze time-temperature statistics",
+        "Implement Matrix Multiplication and K-means clustering using Map Reduce",
+        "Basic R programming: Word cloud text mining and K-means clustering"
+      ],
+      "evaluation": [
+        {
+          "component": "Continuous Lab Performance & Record",
+          "marks": 30
+        },
+        {
+          "component": "End-Term Practical Lab Exam",
+          "marks": 50
+        },
+        {
+          "component": "Viva-Voce",
+          "marks": 20
+        }
+      ]
+    },
+    "suggestedBooks": [
+      "Acharya, S. & Chellappan, S. (2015). Big Data Analytics. Wiley.",
+      "Frampton, M. (2015). Mastering Apache Spark. Packt Publishing.",
+      "White, T. (2015). Hadoop: The Definitive Guide, 4th ed. O'Reilly.",
+      "Pentreath, N. (2015). Machine Learning with Spark. Packt Publishing.",
+      "Guller, M. (2015). Big Data Analytics with Spark. Apress.",
+      "Miner, D. & Shook, A. (2012). Map Reduce Design Patterns. O'Reilly."
+    ]
+  },
+  {
+    "courseTitle": "Beginners Course to Calligraphy",
+    "courseCode": "SEC-2",
+    "credits": "3",
+    "marks": "100",
+    "evaluationScheme": "End-Term Appraisal: 70 Marks | Internal Assessment: 30 Marks",
+    "courseObjectives": [
+      "To teach students the art of Calligraphy.",
+      "To make students better at handwriting and embellish the scripts.",
+      "To help the students communicate with creativity."
+    ],
+    "courseOutcomes": [
+      "CO1: Be skilled in calligraphy scripts (Classical and Modern).",
+      "CO2: Use flourishing to develop artistic writing and aesthetic composition.",
+      "CO3: Complete creative calligraphy project and manuscript designs.",
+      "CO4: Acquire practical design skills for commercial and entrepreneurial ventures."
+    ],
+    "theory": {
+      "credits": "1",
+      "units": [
+        {
+          "unitNumber": 1,
+          "title": "Unit 1: Introduction to Calligraphy",
+          "topics": [
+            "Definition, History of calligraphy, Calligraphy at the Global level",
+            "Types of Calligraphy: Classical Calligraphy & Modern Calligraphy",
+            "Practice Sessions: Introducing students to Calligraphy and its types through images, videos and animations"
+          ]
+        },
+        {
+          "unitNumber": 2,
+          "title": "Unit 2: Introduction to the Writing Tools",
+          "topics": [
+            "Tool Kit, Different Types of Pens, Different Types of Nibs, Different Types of Brushes, Different Types of Inks",
+            "Practice Sessions: Display of Writing items, Discussion on the usage of different types of pens, nibs and brushes through hands-on activities"
+          ]
+        },
+        {
+          "unitNumber": 3,
+          "title": "Unit 3: Foundation to Calligraphy",
+          "topics": [
+            "How to write letters?, Majuscules, Miniscules, Numbers, Learning Strokes",
+            "Sans Serif B-point, Celtic, Italian Script, Roman Script, Gothic Script",
+            "Practice Sessions: Learning and practicing strokes - Upstroke, Downstroke, Overturn, Underturn, Compound curve, Oval, Ascending loop",
+            "Hands-on activities and Assessment on Sans Serif B-point, Celtic, Italian Script, Roman Script, Gothic Script, Flourishing"
+          ]
+        }
+      ]
+    },
+    "practical": {
+      "title": "Calligraphy Practice & Studio Project",
+      "topics": [
+        "Fundamental stroke exercises (upstrokes, downstrokes, ovals, loops)",
+        "Script lettering in Gothic, Celtic, and Roman letterforms",
+        "Flourishing and manuscript layout design project"
+      ],
+      "evaluation": [
+        {
+          "component": "Continuous Lettering Portfolio",
+          "marks": 30
+        },
+        {
+          "component": "End-Term Practical Studio Exam",
+          "marks": 50
+        },
+        {
+          "component": "Portfolio Display Viva",
+          "marks": 20
+        }
+      ]
+    },
+    "suggestedBooks": [
+      "Suepsuan, P. A. (2021). Start Calligraphy The Right way to write. Independently published.",
+      "C., & Co., T. P. (2020). Modern Calligraphy Set for Beginners. Paige Tate & Co."
+    ]
+  },
+  {
+    "courseTitle": "Introduction to Cloud Computing (AWS)",
+    "courseCode": "SEC-2",
+    "credits": "3",
+    "marks": "100",
+    "evaluationScheme": "End-Term Appraisal: 70 Marks | Internal Assessment: 30 Marks",
+    "courseObjectives": [
+      "To learn about cloud computing through Amazon Web Services (AWS) platform.",
+      "To learn about AWS cloud concepts, services, security and architecture to build an application."
+    ],
+    "courseOutcomes": [
+      "CO1: Understand cloud computing platforms and architecture.",
+      "CO2: Differentiate between on-premises, hybrid-cloud, and all-in cloud models.",
+      "CO3: Describe the basic global infrastructure of the AWS Cloud.",
+      "CO4: Understand and deploy core AWS services including compute, network, databases, and storage."
+    ],
+    "theory": {
+      "credits": "1",
+      "units": [
+        {
+          "unitNumber": 1,
+          "title": "Unit 1: Cloud Concepts & Global Infrastructure",
+          "topics": [
+            "Introduction to cloud computing, Creating AWS account, AWS Management Console",
+            "AWS Documentation overview, Availability Zones, Regions, Edge Locations",
+            "AWS Global Infrastructure and Shared Responsibility Security Model"
+          ]
+        },
+        {
+          "unitNumber": 2,
+          "title": "Unit 2: Compute in the Cloud",
+          "topics": [
+            "Amazon EC2 (Elastic Compute Cloud): Instance types, AMIs, Key pairs, Security Groups",
+            "Launching, configuring, and connecting to EC2 Linux/Windows instances",
+            "Elastic Load Balancing and Auto Scaling concepts"
+          ]
+        },
+        {
+          "unitNumber": 3,
+          "title": "Unit 3: Storage and Databases",
+          "topics": [
+            "Amazon Simple Storage Service (Amazon S3): Buckets, objects, storage classes, permissions",
+            "Amazon Elastic Block Store (EBS) and Elastic File System (EFS)",
+            "Amazon Relational Database Service (Amazon RDS): MySQL/PostgreSQL deployment",
+            "Amazon DynamoDB: NoSQL key-value database concepts and querying"
+          ]
+        }
+      ]
+    },
+    "practical": {
+      "title": "AWS Cloud Lab Project",
+      "topics": [
+        "Create an AWS account and configure IAM users, groups, and policies",
+        "Launch and deploy a live web application on an EC2 instance",
+        "Host a static website using Amazon S3 with public read permissions",
+        "Connect an application to an AWS RDS MySQL database instance"
+      ],
+      "evaluation": [
+        {
+          "component": "Continuous Cloud Lab Assessment",
+          "marks": 30
+        },
+        {
+          "component": "End-Term Practical Deployment Exam",
+          "marks": 50
+        },
+        {
+          "component": "Cloud Architecture Viva-Voce",
+          "marks": 20
+        }
+      ]
+    },
+    "suggestedBooks": [
+      "AWS Certified Solutions Architect Official Study Guide. Sybex/Wiley.",
+      "AWS Free Tier & Official Documentation: Amazon Web Services (aws.amazon.com/documentation)"
+    ]
+  },
+  {
+    "courseTitle": "Personality Development & Communication",
+    "courseCode": "SEC-2",
+    "credits": "3",
+    "marks": "100",
+    "evaluationScheme": "End-Term Appraisal: 70 Marks | Internal Assessment: 30 Marks",
+    "courseObjectives": [
+      "To develop interpersonal and effective communication skills.",
+      "To develop problem solving skills and understand its influence on behaviour and attitudes of individuals."
+    ],
+    "courseOutcomes": [
+      "CO1: Understand the importance of oral and written communication in day-to-day working of an organization.",
+      "CO2: Develop interpersonal skills through focused sessions on practical employable knowledge.",
+      "CO3: Enhance professional communication and teamwork dynamics.",
+      "CO4: Master negotiation skills and body language essential for professional success."
+    ],
+    "theory": {
+      "credits": "1",
+      "units": [
+        {
+          "unitNumber": 1,
+          "title": "Unit 1: Foundations of Communication",
+          "topics": [
+            "Introduction, Need for Communication, Process of Communication",
+            "Written and Verbal Communication, Visual communication, Signs, Signals and Symbols",
+            "Silence as a Mode of Communication, Inter-cultural, Intra-cultural, Cross-cultural and International communication",
+            "Communication through Questionnaires, Business Letter Writing, Electronic Communication"
+          ]
+        },
+        {
+          "unitNumber": 2,
+          "title": "Unit 2: Business Cases & Organizational Writing",
+          "topics": [
+            "Business Cases and Presentations, Letters within the Organizations, Letters from Top Management",
+            "Circulars and Memos, Business Presentations to Customers and other stakeholders",
+            "Presenting a Positive Image through Verbal and Non-verbal Cues",
+            "Preparing and Delivering Presentations, Use of Audio-visual Aids, Report Writing"
+          ]
+        },
+        {
+          "unitNumber": 3,
+          "title": "Unit 3: Interpersonal Skills & Team Dynamics",
+          "topics": [
+            "Barriers to Communication, Improving Communication Skills, Preparation of Promotional Material",
+            "Non-verbal communication, Body language, Postures and gestures, Value of time, Organizational body language",
+            "Importance of Listening, Emotional Intelligence, Working individually and in a team, Leadership skills & lessons",
+            "Team work and Team building, Feedback, Feed forward, Interpersonal skills: Delegation, Humour, Trust, Expectations, Values, Status, Compatibility",
+            "Conflict Management: Types of conflicts, How to cope with conflict"
+          ]
+        },
+        {
+          "unitNumber": 4,
+          "title": "Unit 4: Negotiation & Sales Communication",
+          "topics": [
+            "Negotiation Skills, Types of Negotiation, Negotiation Strategies",
+            "Selling skills: Selling to customers, Selling to Superiors, Selling to peer groups, team mates and subordinates",
+            "Conceptual selling, Strategic selling, Selling skills - Body language"
+          ]
+        }
+      ]
+    },
+    "practical": {
+      "title": "Interpersonal Simulation & Negotiation Lab",
+      "topics": [
+        "Mock business presentations and executive pitch delivery",
+        "Team conflict resolution role-play and negotiation exercises",
+        "Body language and non-verbal cue analysis workshops"
+      ],
+      "evaluation": [
+        {
+          "component": "Continuous Practical Exercises & Role Play",
+          "marks": 30
+        },
+        {
+          "component": "End-Term Examination",
+          "marks": 50
+        },
+        {
+          "component": "Viva-Voce & Presentation Defense",
+          "marks": 20
+        }
+      ]
+    },
+    "suggestedBooks": [
+      "Jin, Kushal - Business Communication, VK India.",
+      "Krishnamacharyulu, C. S. G. & Lalitha, R. - Personality Development, Interpersonal Skills and Career Management. Himalaya.",
+      "Corvette Budjac - Conflict Management: A Practical Guide. Pearson.",
+      "Mitra, B. K. - Personality Development and Soft Skills. Oxford University Press.",
+      "Kumar, Sanjay & Pushp Lata - Communication Skills. Oxford University Press."
+    ]
+  },
+  {
+    "courseTitle": "Business Communication",
+    "courseCode": "SEC-2",
+    "credits": "3",
+    "marks": "100",
+    "evaluationScheme": "End-Term Appraisal: 70 Marks | Internal Assessment: 30 Marks",
+    "courseObjectives": [
+      "To train students to enhance written as well as oral communication in the corporate world.",
+      "To help students in understanding the principles and techniques of business communication.",
+      "To understand the use of electronic media for communication."
+    ],
+    "courseOutcomes": [
+      "CO1: Explain the need for effective communication in management.",
+      "CO2: Demonstrate the skill of effective report writing and summarizing annual reports.",
+      "CO3: Analyse business correspondence and e-correspondence professionally.",
+      "CO4: Deliver structured corporate oral presentations and conduct interviews."
+    ],
+    "theory": {
+      "credits": "1",
+      "units": [
+        {
+          "unitNumber": 1,
+          "title": "Unit 1: Introduction to Essentials of Business Communication",
+          "topics": [
+            "Meaning, process and functions, Need and importance",
+            "Medium: verbal & non-verbal communication; Channels: formal & informal; Levels of communication",
+            "Direction: downward, upward, lateral, & diagonal",
+            "Difficulties/barriers and solutions; Interactive and non-interactive techniques; Listening as a tool of communication, Guidelines for effective listening"
+          ]
+        },
+        {
+          "unitNumber": 2,
+          "title": "Unit 2: Effective Writing",
+          "topics": [
+            "Guidelines for clear writing, References, bibliographical research tools",
+            "Citing methods, footnotes, discussion footnotes",
+            "Use of library and internet for collection, classification and interpretation of data and information"
+          ]
+        },
+        {
+          "unitNumber": 3,
+          "title": "Unit 3: Report Writing",
+          "topics": [
+            "Types of reports, Formal report: components and purpose",
+            "Organising information: outlining & numbering sections, section headings, sub-headings, & presentation",
+            "Writing reports on field work/visits to industries, business concerns",
+            "Summarising annual reports of companies: purpose, structure and principles; Drafting minutes of meetings"
+          ]
+        },
+        {
+          "unitNumber": 4,
+          "title": "Unit 4: Business Correspondence and E-Correspondence",
+          "topics": [
+            "Need and importance of business letters, Office memorandum, office circulars, notices and orders",
+            "Technology for communication, Effective IT communication tools",
+            "Electronic mail: advantages, safety and smartness in email, E-mail etiquettes"
+          ]
+        },
+        {
+          "unitNumber": 5,
+          "title": "Unit 5: Spoken English and Oral Presentation",
+          "topics": [
+            "Effective negotiation: elements, process and general guidelines; Telephonic conversation",
+            "Conducting & facing interviews; Conducting & participating in group decisions",
+            "Making presentations: content and organising, Features of a good presentation, Delivering a presentation"
+          ]
+        }
+      ]
+    },
+    "practical": {
+      "title": "Practical Business Exercises",
+      "topics": [
+        "Summarising annual reports of listed corporate companies",
+        "Preparing and delivering formal PowerPoint corporate presentations",
+        "Participating in Group Discussions and mock recruitment interviews",
+        "Smartly drafting business emails, circulars, and memos"
+      ],
+      "evaluation": [
+        {
+          "component": "Continuous Assessment & Practical Assignments",
+          "marks": 30
+        },
+        {
+          "component": "End-Term Examination",
+          "marks": 50
+        },
+        {
+          "component": "Viva-Voce & Presentation Defense",
+          "marks": 20
+        }
+      ]
+    },
+    "suggestedBooks": [
+      "Gupta, C. B. (2019). Essentials of Business Communication. Sultan Chand & Sons.",
+      "Kaul, A. Effective Business Communication, 2nd ed. PHI Learning.",
+      "Lesikar, R. V. & Flatley, M. E. (2001). Basic Business Communication Skills. Tata McGraw Hill.",
+      "Bhatia, R. C. (2008). Business Communication. Ane Books Pvt Ltd.",
+      "Raman & Singh (2012). Business Communication. Oxford University Press."
+    ]
+  },
+  {
+    "courseTitle": "पटकथा लेखन",
+    "courseCode": "SEC-2",
+    "credits": "3",
+    "marks": "100",
+    "evaluationScheme": "End-Term Appraisal: 70 Marks | Internal Assessment: 30 Marks",
+    "courseObjectives": [
+      "पटकथा लेखन का परिचय कराना।",
+      "विद्यार्थी की लेखन-क्षमता और भाषा-कौशल को बढ़ावा देना।",
+      "विद्यार्थी की लेखन में रोजगार सम्बन्धी क्षेत्रों के लिए तैयार करना।"
+    ],
+    "courseOutcomes": [
+      "CO1: पटकथा लेखन तथा उसके तकनीकी शब्दों से विद्यार्थी अवगत हो सकेगा।",
+      "CO2: पटकथा लेखन की जानकारी मिलने के उपरान्त विद्यार्थी के लिए रोजगार की सम्भावनाएँ बनेंगी।",
+      "CO3: विद्यार्थी भाषायी सम्प्रेषण को समझते हुए लेखन से सम्बन्धित विभिन्न पक्षों से अवगत हो सकेगा।",
+      "CO4: विद्यार्थी में अभिव्यक्ति कौशल का विकास हो सकेगा।"
+    ],
+    "theory": {
+      "credits": "1",
+      "units": [
+        {
+          "unitNumber": 1,
+          "title": "यूनिट 1: पटकथा लेखन: परिचय एवं तत्व",
+          "topics": [
+            "पटकथा लेखन: परिचय एवं महत्व",
+            "पटकथा के तत्व",
+            "पटकथा के प्रकार",
+            "पटकथा की पारिभाषिक शब्दावली"
+          ]
+        },
+        {
+          "unitNumber": 2,
+          "title": "यूनिट 2: शोध, चरित्र एवं दृश्य निर्माण",
+          "topics": [
+            "पटकथा लेखन में शोध का महत्व",
+            "चरित्र की निर्मिति और विकास",
+            "एक दृश्य का लिखा जाना (Scene Construction)",
+            "तीन अंक (थ्री एक्ट) और पाँच अंक (फाइव एक्ट) को समझना"
+          ]
+        },
+        {
+          "unitNumber": 3,
+          "title": "यूनिट 3: माध्यम-आधारित पटकथा लेखन",
+          "topics": [
+            "वेबसीरीज के लिए पटकथा लेखन",
+            "लघु फिल्म के लिए पटकथा लेखन",
+            "वृत्तचित्र (डॉक्यूमेंट्री) के लिए पटकथा लेखन",
+            "विज्ञापन फिल्म के लिए पटकथा लेखन"
+          ]
+        },
+        {
+          "unitNumber": 4,
+          "title": "यूनिट 4: पटकथा विश्लेषण एवं स्क्रीनप्ले",
+          "topics": [
+            "पटकथा का पाठ और विश्लेषण",
+            "किसी आईडिया को स्क्रीन प्ले के तौर पर विकसित करना"
+          ]
+        }
+      ]
+    },
+    "practical": {
+      "title": "प्रायोगिक एवं कार्यशाला अभ्यास",
+      "topics": [
+        "लघु फिल्म या वृत्तचित्र के लिए मूल पटकथा एवं दृश्य-संवाद लेखन",
+        "प्रसिद्ध फिल्मों की पटकथा का दृश्य-दर-दृश्य तुलनात्मक विश्लेषण",
+        "विज्ञापन जिंगल एवं कमर्शियल वीडियो स्क्रिप्ट तैयार करना"
+      ],
+      "evaluation": [
+        {
+          "component": "सतत कार्यशाला मूल्यांकन एवं पटकथा ड्राफ्ट",
+          "marks": 30
+        },
+        {
+          "component": "सत्रांत लिखित परीक्षा / पटकथा प्रस्तुति",
+          "marks": 50
+        },
+        {
+          "component": "मौखिकी (वाइवा-वोस)",
+          "marks": 20
+        }
+      ]
+    },
+    "suggestedBooks": [
+      "पांडेय, राजेन्द्र - पटकथा कैसे लिखें, वाणी प्रकाशन, दिल्ली, 2015",
+      "जोशी, मनोहर श्याम - पटकथा लेखन: एक परिचय, राजकमल प्रकाशन, दिल्ली, 2000",
+      "भंडारी, मन्नू - कथा-पटकथा, वाणी प्रकाशन, दिल्ली, 2014",
+      "वजाहत, असगर - व्यावहारिक निर्देशिका: पटकथा लेखन, राजकमल प्रकाशन, दिल्ली, 2011",
+      "सिंह, रामकुमार - आईडिया से परदे तक, राजकमल प्रकाशन, दिल्ली, 2021"
+    ]
+  }
+]
